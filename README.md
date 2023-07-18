@@ -1,2 +1,1 @@
-# user
 astrovim user config
