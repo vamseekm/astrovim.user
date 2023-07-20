@@ -1,15 +1,24 @@
 return {
-  plugins = { 
+  plugins = {
     "AstroNvim/astrocommunity",
-    { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+    { import = "astrocommunity.bars-and-lines.vim-illuminate" },
     { import = "astrocommunity.colorscheme.everforest" },
+    { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+    { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+    { import = "astrocommunity.pack.bash" },
+    { import = "astrocommunity.pack.go" },
+    { import = "astrocommunity.pack.html-css" },
     { import = "astrocommunity.pack.json" },
+    { import = "astrocommunity.pack.lua" },
+    { import = "astrocommunity.pack.markdown" },
+    { import = "astrocommunity.pack.proto" },
+    { import = "astrocommunity.pack.python" },
     { import = "astrocommunity.pack.rust" },
     { import = "astrocommunity.pack.tailwindcss" },
     { import = "astrocommunity.pack.typescript" },
-    { import = "astrocommunity.pack.python" },
-    { import = "astrocommunity/utility/noice-nvim" }
+    { import = "astrocommunity.pack.vue" },
+    { import = "astrocommunity.utility.noice-nvim" },
   },
-  colorscheme="everforest",
+  colorscheme = "everforest",
 }
