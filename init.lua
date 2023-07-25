@@ -4,6 +4,7 @@ return {
     { import = "astrocommunity.bars-and-lines.vim-illuminate" },
     { import = "astrocommunity.colorscheme.everforest" },
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+    { import = "astrocommunity.colorscheme.poimandres-nvim" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
     { import = "astrocommunity.pack.bash" },
