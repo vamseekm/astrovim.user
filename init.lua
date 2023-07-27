@@ -1,6 +1,13 @@
 return {
   plugins = {
     "AstroNvim/astrocommunity",
+    {
+      "maxmx03/solarized.nvim",
+      config = function() vim.o.background = "light" end,
+    },
+    {
+      "navarasu/onedark.nvim",
+    },
     { import = "astrocommunity.bars-and-lines.vim-illuminate" },
     { import = "astrocommunity.colorscheme.everforest" },
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
@@ -19,6 +26,7 @@ return {
     { import = "astrocommunity.pack.tailwindcss" },
     { import = "astrocommunity.pack.typescript" },
     { import = "astrocommunity.pack.vue" },
+    -- { import = "astrocommunity.pack.dart" },
     { import = "astrocommunity.utility.noice-nvim" },
   },
   colorscheme = "everforest",
