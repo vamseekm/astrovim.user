@@ -12,6 +12,8 @@ return {
     { import = "astrocommunity.colorscheme.everforest" },
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
     { import = "astrocommunity.colorscheme.poimandres-nvim" },
+    { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
+    { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
     { import = "astrocommunity.pack.bash" },
@@ -29,5 +31,5 @@ return {
     -- { import = "astrocommunity.pack.dart" },
     { import = "astrocommunity.utility.noice-nvim" },
   },
-  colorscheme = "everforest",
+  colorscheme = "catppuccin-macchiato",
 }
